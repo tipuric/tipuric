@@ -32,3 +32,51 @@ leftarrow.addEventListener("click", ()=>{
 		photos[i].style.display ="flex"
 	}
 })
+
+const floordiv = document.querySelector(".floor")
+const image = document.querySelector(".modalimage")
+
+const modal = document.querySelector(".full-modal")
+
+let d=0
+
+floordiv.addEventListener("click", ()=>{
+	modal.style.display="flex"
+	image.src = "img/floorplan.jpeg"
+	d=1
+})
+
+modal.addEventListener("click", ()=>{
+	if(d==1){
+		modal.style.display="none"
+		d=0
+	}
+})
+
+
+const photo = document.querySelectorAll(".photoDiv")
+const images = document.querySelectorAll(".image")
+
+for(let i=0; i<photo.length; i++){
+	photo[i].addEventListener("click", ()=>{
+		modal.style.display="flex"
+		image.src = images[i].src
+		d=1
+	})
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

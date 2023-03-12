@@ -26,9 +26,9 @@ h4{
 }
 
 h1, h4{
-	margin: 10px 0;
+	margin: 5px 0;
 	border-bottom: 1px solid black;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 	color: #0f234f;
 }
 
@@ -48,12 +48,12 @@ header{
 .header-container{
 	display: flex;
 	align-items: center;
-	justify-content: left;
-	padding: 10px 0 10px 10px;
+	justify-content: center;
+	padding: 10px 10px 10px 10px;
 }
 
 .header-container img{
-	height: 100px;
+	width: 50%;
 }
 
 

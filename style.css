@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+
+body{
+	margin: 0;
+	padding: 0px 0 50px 0;
+	font-family: 'Roboto', sans-serif;
+	background-image: url("img/background.avif");
+	display: flex;
+	flex-direction: column;
+	gap: 50px;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 10px;
+}
+
+h1{
+	font-size: 36px;
+}
+
+h4{
+	font-size: 22px;
+}
+
+h1, h4{
+	margin: 10px 0;
+	border-bottom: 1px solid black;
+	padding-bottom: 20px;
+	color: #0f234f;
+}
+
+.red{
+	color: red;
+}
+
+
+/* Header */
+
+
+header{
+	background: skyblue;
+
+}
+
+.header-container{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	padding: 10px 0 10px 10px;
+}
+
+.header-container img{
+	height: 100px;
+}
+
+
+
+/* Home */
+
+
+.home-container{
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+	padding-top: 20px;
+}
+
+
+.allPhotos{
+	position: relative;
+
+}
+
+.leftarrow img, .rightarrow img{
+	height: 40px;
+}
+
+.leftarrow{
+	position: absolute;
+	left: 10px;
+	top: 46.5%;
+}
+
+.rightarrow{
+	right: 10px;
+	top: 46.5%;
+	position: absolute;
+}
+
+.photos-div{
+	display: none;
+	align-items: center;
+	gap: 5px;
+	width: 100%;
+}
+
+.bigPhotoDiv{
+	width: 66%;
+}
+
+.smallPhotosDiv{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 5px;
+	width: 33%;
+}
+
+.smallPhotoDiv{
+	height: 45%;
+}
+
+.bigPhotoDiv img{
+	width: 100%;
+}
+
+.smallPhotoDiv img{
+	width: 98.486%;
+}
+
+
+/* Description */
+
+.description-container{
+	display: flex;
+	width: 100%;
+	gap: 10px;
+}
+
+.actual-description{
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	font-weight: 500;
+}
+
+.actually-actual{
+	padding: 10px 30px;
+	border-radius: 10px;
+	background: white;
+}
+
+.actual-description img{
+	width: 100%;
+}
+
+.formdiv{
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+}
+
+.three{
+	padding-bottom: 30px;
+}
+
+.represent{
+	border: none;
+	color: black;
+	padding: 30px;
+	margin-top: -10px;
+}
+
+
+@media only screen and (max-width:768px){
+	.description-container{
+		flex-direction: column;
+	}
+
+	.description-container div{
+		
+	}
+
+	.actual-description{
+		width: 100%;
+	}
+
+	a{
+		font-size: 14px;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
